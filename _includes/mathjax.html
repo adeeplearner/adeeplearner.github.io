@@ -1,14 +1,11 @@
 <!-- https://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html -->
+<!-- http://webdocs.cs.ualberta.ca/~zichen2/blog/coding/setup/2019/02/17/how-to-add-mathjax-support-to-jekyll.html -->
+<!-- https://github.com/github/pages-gem/issues/307#issuecomment-232607707 -->
 {% if page.mathjax %}
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-    TeX: { equationNumbers: { autoNumber: "AMS" } },
-    "HTML-CSS": { 
-        preferredFont: "TeX", 
-        availableFonts: ["STIX","TeX"], 
-        styles: {".MathJax": {color: "#000000"}} 
-        }
-    });
-  </script>
-  <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
