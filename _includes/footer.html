@@ -1,0 +1,10 @@
+{% if site.theme_settings.katex and page.id %}
+<script src="{{ "/assets/js/katex_init.js" | relative_url }}"></script>
+{% endif %}
+
+{% if site.theme_settings.footer_text %}
+<footer class="site-footer">
+	<p class="text">{{ site.theme_settings.footer_text }}</p>
+	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The content of this blog is freely available under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+</footer>
+{% endif %}
