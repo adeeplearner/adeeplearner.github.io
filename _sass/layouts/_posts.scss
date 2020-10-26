@@ -48,7 +48,12 @@ header {
     margin-bottom: 0;
     padding: $padding-large/2.5 $padding-large;
     .meta {
-      color: rgba($feature-image-text-color, .7);
+      color: $feature-image-text-color;
+      background-color: rgba($feature-image-text-background-color, .9)
+    }
+    .title {
+      color: $feature-image-text-color;
+      background-color: rgba($feature-image-text-background-color, .9)
     }
   }
   .post-content {
