@@ -138,7 +138,7 @@ Finally, let's look at how much improvement in memory allocation we can have wit
 
 For different EfficientNet models we see a significant improvement in memory requirements:
 
-{% include image.html src="/assets/blog/memoryeffswish/figure_efficientnets.png" alt="Efficient-B0 to B7 with/without MemEffSwish" caption="Efficient-B0 to B6 with/without MemEffSwish" width=700 %}
+{% include image.html src="/assets/blog/memoryeffswish/figure_efficientnets.png" alt="Efficient-B0 to B7 with/without MemEffSwish" caption="Efficient-B0 to B7 with/without MemEffSwish" width=700 %}
 
 The improvement is significant, especially for bigger EfficientNet models. This is due to the fact that bigger models have both bigger as well as more featuremaps.
 
